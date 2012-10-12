@@ -5,10 +5,11 @@ A collection of base object definitions for use with the Electric Imp, this is d
 
 Comments for new implementations should abide by the following
 
-
+<pre>
 // General Name
 //
 // Requires: < other required files, if none do not add >
 // 
 // Usage:
 // < quick usage details. >
+</pre>
