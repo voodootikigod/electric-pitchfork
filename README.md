@@ -13,3 +13,11 @@ Comments for new implementations should abide by the following
 // Usage:
 // < quick usage details. >
 </pre>
+
+A neat fallout of this project is you can quickly generate all your base boilerplate code set by concatenating the appropriate files. Like for example if I wanted to build a temperature sensor system for the Hannah board system, I would simply execute the following in the electric-pitchfork directory:
+
+<pre>
+	> cat io-expander.squirrel temperature.squirrel > tempsys.squirrel
+</pre>
+
+Then simply modify the tempsys.squirrel file and you are off to the races!
